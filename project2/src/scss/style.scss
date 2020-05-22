@@ -1,0 +1,17 @@
+// Main Sass File
+// Varibale Overrides
+
+$body-bg: #d6e1eb;
+
+.jumbotron{
+    background-color: #ffffff ;
+    border-top: solid 3px rgb(219,219,219);
+}
+
+$theme-colors: ( 
+    "primary": #d95700
+);
+
+
+//Bootstrap Sass Files
+@import "node_modules/bootstrap/scss/bootstrap";
